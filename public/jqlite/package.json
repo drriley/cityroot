@@ -1,0 +1,90 @@
+{
+  "_args": [
+    [
+      "jqlite",
+      "/Users/darrenriley/Documents/NodeJsApps/Barber-Login"
+    ]
+  ],
+  "_from": "jqlite@latest",
+  "_id": "jqlite@0.2.38",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/jqlite",
+  "_nodeVersion": "4.4.5",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/jqlite-0.2.38.tgz_1465850235642_0.2728570143226534"
+  },
+  "_npmUser": {
+    "email": "jesus@germade.es",
+    "name": "jgermade"
+  },
+  "_npmVersion": "3.9.5",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "jqlite",
+    "raw": "jqlite",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/jqlite/-/jqlite-0.2.38.tgz",
+  "_shasum": "64251048f4e7847f5825bb8881ace050e7510d94",
+  "_shrinkwrap": null,
+  "_spec": "jqlite",
+  "_where": "/Users/darrenriley/Documents/NodeJsApps/Barber-Login",
+  "author": {
+    "email": "jesus@germade.es",
+    "name": "Jesús Germade"
+  },
+  "bugs": {
+    "url": "https://github.com/jstools/jqlite/issues"
+  },
+  "dependencies": {},
+  "description": "Tiny JavaScript DOM query library",
+  "devDependencies": {
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^0.2.3",
+    "karma-firefox-launcher": "^0.1.7",
+    "karma-jasmine": "^0.3.8",
+    "karma-story-reporter": "^0.3.1",
+    "nitro": "1.5.72"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "64251048f4e7847f5825bb8881ace050e7510d94",
+    "tarball": "https://registry.npmjs.org/jqlite/-/jqlite-0.2.38.tgz"
+  },
+  "gitHead": "28aeaa6259f714ff32edae5e33dd74dd5e383573",
+  "homepage": "https://github.com/jstools/jqlite",
+  "keywords": [
+    "javascript",
+    "query",
+    "dom"
+  ],
+  "license": "MIT",
+  "main": "jqlite.js",
+  "maintainers": [
+    {
+      "email": "jesus@germade.es",
+      "name": "jgermade"
+    }
+  ],
+  "name": "jqlite",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jstools/jqlite.git"
+  },
+  "scripts": {
+    "pretest": "node make jqlite.min.js",
+    "test": "node make test && $(npm bin)/karma start karma.conf.js && $(npm bin)/karma start karma.min.js"
+  },
+  "version": "0.2.38"
+}
